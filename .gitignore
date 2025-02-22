@@ -1,0 +1,9 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore SSH keys (VERY IMPORTANT)
+*.pem
+*.key
+hosts.ini
